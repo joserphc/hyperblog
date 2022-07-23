@@ -1,0 +1,17 @@
+:root{
+    --dark-red: #a7414a;
+    --black: #282726;
+    --grayish-cian: #6a8a82;
+    --gold-yellow: #a37c27;
+    --red-brown: #563838; 
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
