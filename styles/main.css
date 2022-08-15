@@ -15,3 +15,19 @@
 html{
     font-size: 62.5%;
 }
+
+main{
+    display: flex;
+    height: 50vh;
+    font-size: 2.0rem;
+}
+
+main section{
+    width: 80%;
+    padding: 50px;
+}
+
+main aside{
+    width: 20%;
+    padding: 50px 10px;
+}
