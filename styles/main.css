@@ -31,3 +31,41 @@ main aside{
     width: 20%;
     padding: 50px 10px;
 }
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 20vh;
+    background-color: royalblue;
+    color: white;
+}
+
+header h1{
+    font-size: 3.5rem;
+}
+
+header nav{
+    width: 35%;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    width: 100%;
+}
+
+header ul a{
+    font-weight: bold;
+    color: white;
+}
