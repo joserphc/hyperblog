@@ -64,44 +64,60 @@ main aside{
 
 footer{
     display: flex;
-    height: 15vh;
-    background-color: slategrey;
+    flex-direction: column;
+    padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+    background-color: slategray;
+    color: white;
 }
 
-.imagen-content,
+.links-container{
+    display: flex;
+    padding: 5% 10% 0 10%;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 60%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 .links-content{
-    width: 50%;
-    height: 100%;
+    font-size: 2.0rem;
 }
 
-.imagen-content{
+.links-content__title{
+    font-size: 2.1rem;
+    margin-bottom: 10px;
+}
+
+.links-container-end{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 40%;
+}
+
+.content-copy{
     display: flex;
     justify-content: center;
-    align-items: center;
+    width: 50%;
+    font-size: 1.5rem;
 }
 
-.imagen-content figure{
-    width: 100px;
-    height: 100px;
-}
-
-.imagen-content figure img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-
-.links-content{
+.content-icon{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    width: 50%;
 }
 
-.links-content ul{
+.list-icon{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 100px;
+    font-size: 2.0rem;
 }
 
-.links-content ul li{
-    font-size: 2.5rem;
+.links-content-section li a{
+    color: white;
 }
